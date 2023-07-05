@@ -1,0 +1,452 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family:"opensans";
+    src: url(../fonts/static/);
+}
+@font-face {
+    font-family:"gatwick";
+    src: url(../fonts/__MACOSX/);
+}
+.logo{
+    background-image: url(../img/logo.jpg);
+    height: 120px;
+    width: 200px;
+}
+.Caja1{
+    height: 120px;
+    width: 100vw;
+    display: flex;
+}
+nav ul li{
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 140px;
+}
+.ini{
+    color: rgba(5, 115, 174,1);
+    font-family: "opensans";
+    font-size: 20px;
+    text-decoration: none;
+   
+}
+.menupaginas{
+    text-decoration: none;
+    color:white;
+}
+.cajamedio{
+    height: 543px;
+    width: 100%;
+    background-image: url(../img/imagenmedio.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div p{
+    text-align: center;
+    color: aliceblue;
+    padding-top: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: "gatwick";
+    font-size:30px;;
+}
+.menuabajo{
+    display: flex;
+    color: aliceblue;
+    font-family:"opensans";
+    font-size: 10px;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+.estamos{
+    margin-top: 5px;
+    margin-left: 400px;
+    padding-top: 5px;
+}
+.nosotros{
+    margin-top: 5px;
+    padding-top: 5px;
+    text-align: none;
+}
+.siganos{
+    margin-top: 5px;
+    margin-left: 400px;
+    padding-top: 5px;
+}
+.cajapages{
+    display: flex;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    background-color: rgba(5, 115, 174,1);
+    position:fixed;
+    
+}
+.paginas{
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.int{
+    text-align: center;
+    font-family: gatwick;
+    font-size: 50px;
+    color: black;
+}
+
+.texto{
+    background-color: darkgray;
+    height: 200px;
+    width: 500px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-left: 450px;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding-top:30px;
+}
+
+.fin{
+    display: grid;
+    display: flex;
+    background-color:rgba(5, 115, 174,1) ;
+    height:120px;
+    width: 100%;
+}
+.nosotrospages{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    margin-left: 35px;
+    margin-top: 50px;
+}
+.dondepages{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    margin-left: 350px;
+    margin-top: 50px;
+}
+.siganospages{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    margin-top: 50px;
+    margin-left: 500px;
+}
+.logonosotros{
+    margin-left: 80px;
+}
+.logoubi{
+    margin-left: 70px;
+}
+
+div h2 a{
+    color: white;
+    text-decoration: none;
+}
+.facebook{
+    margin-left: 200px;
+    margin-top: 200px;
+}
+.instagram{
+    margin-left: 200px;
+    margin-top: 200px;
+}
+.redes{
+    display: flex;
+}
+.wpp{
+    margin-left: 200px;
+    margin-top: 200px;
+}
+.fi{
+    display: flex;
+    background-color:rgba(5, 115, 174,1) ;
+    height:120px;
+    width: 100%;
+    margin-top:60px;
+}
+.casa{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    padding-left: 80px;
+    padding-top: 180px;
+    size: 20px;
+}
+.correo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    padding-left: 80px;
+    padding-top: 30px;
+}
+.wapp{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    padding-left: 80px;
+    padding-top: 30px;
+}
+main h2{
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.fondototal{
+    background-image: url(../img/fondopages.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.con{
+    color: black;
+}
+.ultimo{
+    display: flex;
+}
+.mapa{
+    padding-top: 200px;
+    padding-left: 300px;
+    height: 300px;
+    width: 300px;
+}
+.f{
+    display: flex;
+    background-color:rgba(5, 115, 174,1) ;
+    height:120px;
+    width: 100%;
+    margin-top:210px;
+}
+.Caja1 li a{
+    transition: all 0.5s ease;
+}
+.Caja1 li a:hover{
+    background-color: rgb(175, 175, 175);
+    border-radius: 15px;
+}
+.cajapages li a{
+    transition: all 0.5s ease;
+}
+.cajapages li a:hover{
+    background-color: rgb(13, 85, 124);
+    border-radius: 15px;
+}
+.prueba{
+    flex-direction:column ;
+}
+
+.casas{
+    display: grid;
+    display: flex;
+    align-items: center;
+    background-color:rgb(255, 255, 255) ;
+    border: 3px solid;
+    border-radius: 10px;
+}
+.alq1{
+    height: 200px;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+.alq2{
+    height: 180px;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+.alq3{
+    height: 250px;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+.alq4{
+    height: 250px;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+.alq5{
+    height: 200px;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+.alq6{
+    height: 200px;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+.casa1{
+    padding-left: 20px;
+    height: 250px;
+    border-radius: 10px;
+}
+.casa2{
+    height: 250px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+.casa3{
+        height: 190px;
+        padding-top: 50px;
+        padding-left: 20px;
+        border-radius: 10px;
+}
+.casa4{
+    height: 180px;
+    padding-top: 30px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+.casa5{
+    height: 180px;
+    padding-top: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+.casa6{
+    height: 180px;
+    padding-top: 30px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+.venta{
+    background-image: url(../img/fondopages.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: repeat(4,300px);
+    padding-left:80px;
+    gap: 40px;
+    padding-top: 200px;
+}
+.info{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    font-size:15px;
+    padding-top: 50px;
+}
+button{
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+ font-size: 15px;
+margin-top:30px;
+margin-left: 70px;
+background:rgb(5, 150, 229) ;
+border: 3px solid rgb(4, 111, 168);
+}
+.estilob{
+    color:black;
+    text-decoration: none;
+    
+}
+body{
+    display: grid;
+}
+
+/*MOVIL*/
+
+@media (min-width:320px)and(max-width: 480px){
+   
+    .venta{  
+        justify-items: center;
+        background-image: url(../img/fondopages.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        grid-template-columns:20px;
+        gap: 40px;
+        padding-top: 180px;
+    }
+     
+    .casa1{
+        padding-left: 20px;
+        height: 150px;
+        border-radius: 10px;
+    }
+    .casa2{
+        height: 150px;
+        padding-left: 20px;
+        border-radius: 10px;
+    }
+    .casa3{
+            height:150px;
+            padding-top: 50px;
+            padding-left: 20px;
+            border-radius: 10px;
+    }
+    .casa4{
+        height:120px;
+        padding-top: 70px;
+        padding-left: 20px;
+        border-radius: 10px;
+    }
+    .casa5{
+        height:120px;
+        padding-top: 30px;
+        padding-left: 20px;
+        border-radius: 10px;
+    }
+    .casa6{
+        height:120px;
+        padding-top: 30px;
+        padding-left: 20px;
+        border-radius: 10px;
+    }
+    .casas{
+        justify-content: left;
+        background-color:rgb(255, 255, 255) ;
+        border: 3px solid;
+        border-radius: 10px;
+    }
+    .info{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+        font-size:15px;
+        padding-top: 50px;
+    }
+    nav ul li{
+        font-size: 12px;
+        margin-top: 50px;
+        margin-left: 40px;
+    }
+    .cajapages{
+        width: 100%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: rgba(5, 115, 174,1);
+        position:fixed;
+        
+    }
+    .nosotrospages{
+        font-size: 15px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: aliceblue;
+        margin-left: 70px;
+       
+    }
+    .dondepages{
+        font-size: 15px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: aliceblue;
+        margin-left: 90px;
+        
+    }
+    .siganospages{
+        font-size: 15px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: aliceblue;
+        margin-top: 50px;
+        margin-left: 80px;
+    }
+    .logo{
+        height: 100px;
+        width: 180px;
+    }
+   
+}
+
+
+
+
+
+
+
+
+
