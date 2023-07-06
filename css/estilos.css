@@ -92,6 +92,11 @@ div p{
     font-family: "gatwick";
     font-size:30px;;
 }
+.nos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .cajapages{
     display: flex;
@@ -357,108 +362,19 @@ border: 3px solid rgb(4, 111, 168);
     
 }
 
-/*MOVIL*/
-
-@media (max-width: 768px){
-   .ventas{
-    background-image: url(../img/fondopages.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: grid;
-    grid-template-columns:1fr;
-    grid-template-rows:6fr;
-    padding-left:0px;
-    gap: 40px;
-    padding-top: 200px;
-   }
-   
-
-     
-    .casa1{
-        padding-left: 20px;
-        height: 150px;
-        border-radius: 10px;
+@media (min-width:320px) and (max-width:720px){
+    .venta{
+        background-color: aliceblue;
+        grid-template-columns:1fr;
+        grid-template-rows: 6fr;
+        padding-left:80px;
+        gap: 40px;
+        padding-top: 200px;
     }
-    .casa2{
-        height: 150px;
-        padding-left: 20px;
-        border-radius: 10px;
-    }
-    .casa3{
-            height:150px;
-            padding-top: 50px;
-            padding-left: 20px;
-            border-radius: 10px;
-    }
-    .casa4{
-        height:120px;
-        padding-top: 70px;
-        padding-left: 20px;
-        border-radius: 10px;
-    }
-    .casa5{
-        height:120px;
-        padding-top: 30px;
-        padding-left: 20px;
-        border-radius: 10px;
-    }
-    .casa6{
-        height:120px;
-        padding-top: 30px;
-        padding-left: 20px;
-        border-radius: 10px;
-    }
-    .casas{
-        justify-content: left;
-        background-color:rgb(255, 255, 255) ;
-        border: 3px solid;
-        border-radius: 10px;
-    }
-    .info{
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
-        font-size:15px;
-        padding-top: 50px;
-    }
-    nav ul li{
-        font-size: 12px;
-        margin-top: 50px;
-        margin-left: 40px;
-    }
-    .cajapages{
-        width: 100%;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        background-color: rgba(5, 115, 174,1);
-        position:fixed;
-        
-    }
-    .nosotrospages{
-        font-size: 15px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color: aliceblue;
-        margin-left: 70px;
-       
-    }
-    .dondepages{
-        font-size: 15px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color: aliceblue;
-        margin-left: 90px;
-        
-    }
-    .siganospages{
-        font-size: 15px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color: aliceblue;
-        margin-top: 50px;
-        margin-left: 80px;
-    }
-    .logo{
-        height: 100px;
-        width: 180px;
-    }
-   
 }
+
+
+   
 
 
 
