@@ -38,7 +38,6 @@ header nav ul li{
 }
 .principal{
     color: aliceblue;
-
     text-decoration: none;
 }
 
@@ -356,6 +355,18 @@ margin-left: 70px;
 background:rgb(5, 150, 229) ;
 border: 3px solid rgb(4, 111, 168);
 }
+.alquileres{
+    background-image: url(../img/fondopages.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: repeat(4,300px);
+    padding-left:80px;
+    gap: 40px;
+    padding-top: 200px;
+}
 .estilob{
     color:black;
     text-decoration: none;
@@ -364,13 +375,129 @@ border: 3px solid rgb(4, 111, 168);
 
 @media (min-width:320px) and (max-width:720px){
     .venta{
-        background-color: aliceblue;
+        background-image:none;
+        background-color:white;
         grid-template-columns:1fr;
-        grid-template-rows: 6fr;
+        grid-template-rows:6fr;
         padding-left:80px;
         gap: 40px;
         padding-top: 200px;
-    }
+        }
+        .alquileres{
+        background-image:none;  
+        grid-template-columns:1fr;
+        grid-template-rows:6fr;
+        padding-left:80px;
+        gap: 40px;
+        padding-top: 200px;
+        }
+        .cajapages{
+        flex-direction: column;
+        width: 120px;
+        height: 100%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        background-color: rgba(5, 115, 174,1);
+            
+            
+        }
+        .fin{
+        flex-direction: column;
+        background-color:rgba(5, 115, 174,1) ;
+        height:120px;
+        width: 100%;
+        }
+        .nosotrospages{
+        font-size: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: aliceblue;
+        margin-left: 35px;
+        margin-top: 50px;
+        }
+        .dondepages{
+        font-size: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: aliceblue;
+        margin-left: 30px;
+        margin-top: 50px;
+        }
+        .siganospages{
+        font-size: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: aliceblue;
+        margin-top: 50px;
+        margin-left: 50px;
+        }
+        header nav ul{
+        flex-direction: column;
+        font-family: "opensans";
+        list-style-type: none;
+        }
+        header nav ul li{
+        color: aliceblue;
+        margin-left:0px;
+        font-size: 15px;
+        margin-top: 50px;
+        list-style-type: none;
+        display: flex;
+        }
+        .logo{
+            width: 100%;
+            height: 120px;
+            justify-content: center;
+        }
+        .fin{
+        display: none;
+        }
+        .casa1{
+            padding-left:0px;
+            height: 120px;
+            border-radius: 10px;
+        }
+        .casa2{
+            height: 120px;
+            padding-left:0px;
+            border-radius: 10px;
+        }
+        .casa3{
+                height: 120px;
+                padding-top: 50px;
+                padding-left: 0px;
+                border-radius: 10px;
+        }
+        .casa4{
+            height: 120px;
+            padding-top: 30px;
+            padding-left: 0px;
+            border-radius: 10px;
+        }
+        .casa5{
+            height: 120px;
+            padding-top: 20px;
+            padding-left: 0px;
+            border-radius: 10px;
+        }
+        .casa6{
+            height: 120px;
+            padding-top: 30px;
+            padding-left: 0px;
+            border-radius: 10px;
+        }
+        .info{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+            font-size:10px;
+            padding-top: 10px;
+        }
+        button{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+        font-size: 10px;
+        margin-top:30px;
+        margin-left: 70px;
+        background:rgb(5, 150, 229) ;
+        border: 3px solid rgb(4, 111, 168);
+        }
+        
+    
 }
 
 
