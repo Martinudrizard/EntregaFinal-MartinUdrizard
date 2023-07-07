@@ -74,13 +74,16 @@ header nav ul li{
 }
 .inddondepages{
     font-size: 20px;
+    font-family:"opensans";
 }
 .indnosotrospages{
+    font-size: "opensans" ;
     color: aliceblue;
     font-size: 20px;
 }
 .indsiganospages{
     font-size: 20px;
+    font-family:"opensans";
 }
 div p{
     text-align: center;
@@ -92,6 +95,16 @@ div p{
     font-size:30px;;
 }
 .nos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.don{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sig{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -380,8 +393,9 @@ border: 3px solid rgb(4, 111, 168);
         grid-template-columns:1fr;
         grid-template-rows:6fr;
         padding-left:80px;
-        gap: 40px;
+        
         padding-top: 200px;
+        align-content: center;
         }
         .alquileres{
         background-image:none;  
@@ -392,14 +406,20 @@ border: 3px solid rgb(4, 111, 168);
         padding-top: 200px;
         }
         .cajapages{
+        padding-top: 0px;
         flex-direction: column;
         width: 120px;
         height: 100%;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 20px;
         background-color: rgba(5, 115, 174,1);
+        align-items: center;
             
             
+        }
+        .inicio{
+            display: flex;
+            flex-direction: column;
         }
         .fin{
         flex-direction: column;
@@ -429,9 +449,7 @@ border: 3px solid rgb(4, 111, 168);
         margin-left: 50px;
         }
         header nav ul{
-        flex-direction: column;
-        font-family: "opensans";
-        list-style-type: none;
+        flex-direction: column;   
         }
         header nav ul li{
         color: aliceblue;
@@ -460,7 +478,7 @@ border: 3px solid rgb(4, 111, 168);
             border-radius: 10px;
         }
         .casa3{
-                height: 120px;
+                height: 160px;
                 padding-top: 50px;
                 padding-left: 0px;
                 border-radius: 10px;
@@ -496,6 +514,59 @@ border: 3px solid rgb(4, 111, 168);
         background:rgb(5, 150, 229) ;
         border: 3px solid rgb(4, 111, 168);
         }
+        .casas{
+        padding-left: 10%;
+        border: 3px solid;
+        }
+        .menupaginas{
+        padding-left: 10px;
+        }
+        .alq1{
+            height: 120px;
+            padding-left: 20px;
+            border-radius: 20px;
+        }
+        .alq2{
+            height: 120px;
+            padding-left: 20px;
+            border-radius: 20px;
+        }
+        .alq3{
+            height: 120px;
+            padding-left: 20px;
+            border-radius: 20px;
+        }
+        .alq4{
+            height: 120px;
+            padding-left: 20px;
+            border-radius: 20px;
+        }
+        .alq5{
+            height: 120px;
+            padding-left: 20px;
+            border-radius: 20px;
+        }
+        .alq6{
+            height: 120px;
+            padding-left: 20px;
+            border-radius: 20px;
+        }
+        .casas{
+            display: grid;
+            display: flex;
+            align-items: center;
+            background-color:rgb(255, 255, 255) ;
+            border:none;
+            border-radius: 10px;
+        }
+        .fi{
+            display: none;
+            
+        }
+        .utlimo{
+            flex-direction: column;
+        }
+        
         
     
 }
