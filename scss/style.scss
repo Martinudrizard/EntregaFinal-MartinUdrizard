@@ -1,0 +1,569 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*variables*/
+$color-barra-menu:rgba(5, 115, 174,1);
+$color-letra: aliceblue;
+$tamaño-letra:20px;
+$letra-menu:"opensans";
+
+
+
+
+
+@font-face{
+    font-family:"opensans";
+    src: url(../fonts/static/);
+}
+@font-face {
+    font-family:"gatwick";
+    src: url(../fonts/__MACOSX/);
+}
+.logo{
+    background-image: url(../img/logo.jpg);
+    height: 120px;
+    width: 200px;
+}
+header{
+    background-color:$color-barra-menu ;
+    height: 20%;
+    display: flex;
+    justify-content: left;
+    position: fixed;
+    nav{
+        display: flex;
+        ul{
+            display: flex;
+            font-family: $letra-menu;
+            list-style-type: none;
+            li{
+                color: $color-letra;
+                margin-left: 80px;
+                font-size: $tamaño-letra;
+                margin-top: 50px;
+                list-style-type: none;
+            }
+        }
+    }
+}
+
+
+.principal{
+    color: $color-letra;
+    text-decoration: none;
+}
+
+.ini{
+    color:$color-letra;
+    font-family: $letra-menu;
+    font-size: $tamaño-letra;
+    text-decoration: none;
+   
+}
+.indfin{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+    background-color:$color-barra-menu;
+    padding-left: 20px;
+}
+.menupaginas{
+    text-decoration: none;
+    color:$color-letra;
+}
+.cajamedio{
+    height: 66vh;
+    width: 100%;
+    background-image: url(../img/imagenmedio.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.abajoindex{ 
+    width: 100%;
+    background-color:$color-barra-menu;
+}
+.inddondepages{
+    font-size: $tamaño-letra;
+    font-family:$letra-menu;
+}
+.indnosotrospages{
+    font-size: $letra-menu ;
+    color: $color-letra;
+    font-size: $tamaño-letra;
+}
+.indsiganospages{
+    font-size: $tamaño-letra;
+    font-family:$letra-menu;
+}
+div p{
+    text-align: center;
+    color: $color-letra;
+    padding-top: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: "gatwick";
+    font-size:30px;;
+}
+.nos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.don{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sig{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cajapages{
+    display: flex;
+    width: 100%; 
+    position:fixed;
+    
+}
+
+.int{
+    text-align: center;
+    font-family: gatwick;
+    font-size: 50px;
+    color: black;
+}
+
+
+
+.fin{
+    display: grid;
+    display: flex;
+    background-color:$color-barra-menu ;
+    height:120px;
+    width: 100%;
+}
+.nosotrospages{
+    font-size: $tamaño-letra;
+    font-family: $letra-menu;
+    color: $color-letra;
+    margin-left: 35px;
+    margin-top: 50px;
+}
+.dondepages{
+    font-size: $tamaño-letra;
+    font-family: $letra-menu;
+    color: $color-letra;
+    margin-left: 350px;
+    margin-top: 50px;
+}
+.siganospages{
+    font-size: $tamaño-letra;
+    font-family:$letra-menu;
+    color: $color-letra;
+    margin-top: 50px;
+    margin-left: 500px;
+}
+.logonosotros{
+    margin-left: 80px;
+}
+.logoubi{
+    margin-left: 70px;
+}
+
+div h2 a{
+    color: $color-letra;
+    text-decoration: none;
+    
+}
+.facebook{
+    margin-left: 200px;
+    margin-top: 200px;
+}
+.instagram{
+    margin-left: 200px;
+    margin-top: 200px;
+}
+.redes{
+    display: flex;
+}
+.wpp{
+    margin-left: 200px;
+    margin-top: 200px;
+}
+.fi{
+    display: flex;
+    background-color:$color-barra-menu ;
+    height:120px;
+    width: 100%;
+    margin-top:60px;
+}
+.casa{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    padding-left: 80px;
+    padding-top: 180px;
+    size: 20px;
+}
+.correo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    padding-left: 80px;
+    padding-top: 30px;
+}
+.wapp{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    padding-left: 80px;
+    padding-top: 30px;
+}
+main h2{
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.fondototal{
+    background-image: url(../img/fondopages.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.con{
+    color: black;
+}
+.ultimo{
+    display: flex;
+}
+.mapa{
+    padding-top: 200px;
+    padding-left: 300px;
+    height: 300px;
+    width: 300px;
+}
+.f{
+    display: flex;
+    background-color:$color-barra-menu ;
+    height:120px;
+    width: 100%;
+    margin-top:210px;
+}
+.Caja1 li a{
+    transition: all 0.5s ease;
+    &:hover{
+        background-color: rgb(175, 175, 175);
+        border-radius: 15px;
+    }
+}
+.cajapages li a{
+    transition: all 0.5s ease;
+    &:hover{
+        background-color: $color-barra-menu;
+        border-radius: 15px;
+    }
+}
+.prueba{
+    flex-direction:column ;
+}
+
+.casas{
+    display: grid;
+    display: flex;
+    align-items: center;
+    background-color:rgb(255, 255, 255) ;
+    border: 3px solid;
+    border-radius: 10px;
+}
+.alq1{
+    height: 200px;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+.alq2{
+    height: 180px;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+.alq3{
+    height: 250px;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+.alq4{
+    height: 250px;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+.alq5{
+    height: 200px;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+.alq6{
+    height: 200px;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+.casa1{
+    padding-left: 20px;
+    height: 250px;
+    border-radius: 10px;
+}
+.casa2{
+    height: 250px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+.casa3{
+        height: 190px;
+        padding-top: 50px;
+        padding-left: 20px;
+        border-radius: 10px;
+}
+.casa4{
+    height: 180px;
+    padding-top: 30px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+.casa5{
+    height: 180px;
+    padding-top: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+.casa6{
+    height: 180px;
+    padding-top: 30px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+.venta{
+    background-image: url(../img/fondopages.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: repeat(4,300px);
+    padding-left:80px;
+    gap: 40px;
+    
+}
+.info{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    font-size:15px;
+    padding-top: 50px;
+}
+button{
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+ font-size: 15px;
+margin-top:30px;
+margin-left: 70px;
+background:rgb(5, 150, 229) ;
+border: 3px solid $color-barra-menu;
+}
+.alquileres{
+    background-image: url(../img/fondopages.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: repeat(4,300px);
+    padding-left:80px;
+    gap: 40px;
+    
+}
+.estilob{
+    color:black;
+    text-decoration: none;
+    
+}
+
+@media (min-width:320px) and (max-width:720px){
+    .venta{
+        background-image:none;
+        background-color:$color-letra;
+        grid-template-columns:1fr;
+        grid-template-rows:6fr;
+        padding-left:80px;
+        
+        padding-top: 200px;
+        align-content: center;
+        }
+        .alquileres{
+        background-image:none;  
+        grid-template-columns:1fr;
+        grid-template-rows:6fr;
+        padding-left:80px;
+        gap: 40px;
+        padding-top: 200px;
+        }
+        .cajapages{
+        padding-top: 0px;
+        flex-direction: column;
+        width: 120px;
+        height: 100%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: $tamaño-letra;
+        background-color:$color-barra-menu;
+        align-items: center;
+            
+            
+        }
+        .inicio{
+            display: flex;
+            flex-direction: column;
+        }
+        .fin{
+        flex-direction: column;
+        background-color:$color-barra-menu ;
+        height:120px;
+        width: 100%;
+        }
+        .nosotrospages{
+        font-size: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: $color-letra;
+        margin-left: 35px;
+        margin-top: 50px;
+        }
+        .dondepages{
+        font-size: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: $color-letra;
+        margin-left: 30px;
+        margin-top: 50px;
+        }
+        .siganospages{
+        font-size: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: $color-letra;
+        margin-top: 50px;
+        margin-left: 50px;
+        }
+        header nav ul{
+        flex-direction: column;   
+        li{
+            color: $color-letra;
+            margin-left:0px;
+            font-size: 15px;
+            margin-top: 50px;
+            list-style-type: none;
+            display: flex;
+            }
+        }
+        .logo{
+            width: 100%;
+            height: 120px;
+            justify-content: center;
+        }
+        .fin{
+        display: none;
+        }
+        .casa1{
+            padding-left:0px;
+            height: 120px;
+            border-radius: 10px;
+        }
+        .casa2{
+            height: 120px;
+            padding-left:0px;
+            border-radius: 10px;
+        }
+        .casa3{
+                height: 160px;
+                padding-top: 50px;
+                padding-left: 0px;
+                border-radius: 10px;
+        }
+        .casa4{
+            height: 120px;
+            padding-top: 30px;
+            padding-left: 0px;
+            border-radius: 10px;
+        }
+        .casa5{
+            height: 120px;
+            padding-top: 20px;
+            padding-left: 0px;
+            border-radius: 10px;
+        }
+        .casa6{
+            height: 120px;
+            padding-top: 30px;
+            padding-left: 0px;
+            border-radius: 10px;
+        }
+        .info{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+            font-size:10px;
+            padding-top: 10px;
+        }
+        button{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+        font-size: 10px;
+        margin-top:30px;
+        margin-left: 70px;
+        background:$color-barra-menu;
+        border: 3px solid $color-barra-menu;
+        }
+        .casas{
+        padding-left: 10%;
+        border: 3px solid;
+        }
+        .menupaginas{
+        padding-left: 10px;
+        }
+        .alq1{
+            height: 120px;
+            padding-left: 20px;
+            border-radius: 20px;
+        }
+        .alq2{
+            height: 120px;
+            padding-left: 20px;
+            border-radius: 20px;
+        }
+        .alq3{
+            height: 120px;
+            padding-left: 20px;
+            border-radius: 20px;
+        }
+        .alq4{
+            height: 120px;
+            padding-left: 20px;
+            border-radius: 20px;
+        }
+        .alq5{
+            height: 120px;
+            padding-left: 20px;
+            border-radius: 20px;
+        }
+        .alq6{
+            height: 120px;
+            padding-left: 20px;
+            border-radius: 20px;
+        }
+        .casas{
+            display: grid;
+            display: flex;
+            align-items: center;
+            background-color:$color-letra ;
+            border:none;
+            border-radius: 10px;
+        }
+        .fi{
+            display: none;
+            
+        }
+        .utlimo{
+            flex-direction: column;
+        }
+        
+        
+    
+}
