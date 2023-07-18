@@ -1,33 +1,23 @@
 .principal{
-    color: $color-letra;
+    color: map-get($colores,color-letra);
     text-decoration: none;
 }
 
-$fondo:cualquiercosa;
 
-@if $fondo == navidad{
-    .cajamedio{
-        background-image: url(/img/fondonavidad.jpg);
-    }
-}
-@else{
-    .cajamedio{
-        background-image: url(/img/imagenmedio.png);
-    }
-}
+
 
 .indfin{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 15vh;
-    background-color:$color-barra-menu;
+    height: 20vh;
+    background-color:map-get($colores,color-barra-menu);
     padding-left: 20px;
 }
 .cajamedio{
-    height: 569px;
+    height: 80vh;
     width: 100%;
-    background-image: url(/img/imagenmedio.png);
+    background-image: url(../img/imagenmedio.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -46,4 +36,12 @@ $fondo:cualquiercosa;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+$fondo:descuento;
+
+@if $fondo == navidad{
+    .cajamedio{
+        background-image: url(../img/fondonavidad.jpg);
+    }
+    
 }

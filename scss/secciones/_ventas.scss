@@ -47,3 +47,17 @@
     padding-top: 200px;
     
 }
+
+$fondo:descuento;
+
+@if $fondo == navidad{
+    .venta{
+        background-image: url(../img/fondonavidad.jpg);
+    }
+    
+}
+@else if $fondo == descuento{
+    .venta{
+        background-image: url(../img/fondodescuento.jpg);
+    }
+}

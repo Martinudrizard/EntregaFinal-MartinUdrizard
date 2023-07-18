@@ -41,3 +41,16 @@
     gap: 40px;
     padding-top: 200px;
 }
+$fondo: descuento;
+
+@if $fondo == navidad{
+    .alquileres{
+        background-image: url(../img/fondonavidad.jpg);
+    }
+    
+}
+@else if $fondo == descuento{
+    .alquileres{
+        background-image: url(../img/fondodescuento.jpg);
+    }
+}

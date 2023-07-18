@@ -9,10 +9,13 @@
 .logo{
     background-image: url(../img/logo.jpg);
     height: 120px;
-    width: 200px;
+    
 }
+
+
+
 header{
-    background-color:$color-barra-menu ;
+    background-color:map-get($colores, color-barra-menu);
     height: 20%;
     display: flex;
     justify-content: left;
@@ -24,7 +27,7 @@ header{
             font-family: $letra-menu;
             list-style-type: none;
             li{
-                color: $color-letra;
+                color:map-get($colores , color-letra);
                 margin-left: 80px;
                 font-size: $tamanio-letra;
                 margin-top: 50px;
@@ -36,7 +39,7 @@ header{
 
 .menupaginas{
     text-decoration: none;
-    color:$color-letra;
+    color:map-get($colores, color-letra);
 }
 
 .inddondepages{
@@ -45,7 +48,7 @@ header{
 }
 .indnosotrospages{
     font-size: $letra-menu ;
-    color: $color-letra;
+    color: map-get($colores, color-letra);
     font-size: $tamanio-letra;
 }
 .indsiganospages{
@@ -54,7 +57,7 @@ header{
 }
 div p{
     text-align: center;
-    color: $color-letra;
+    color: map-get($colores, color-letra);
     padding-top: 200px;
     padding-left: 30px;
     padding-right: 30px;
@@ -67,8 +70,8 @@ div p{
     display: flex;
     width: 100%; 
     position:fixed;
-    background-color: $color-barra-menu;
-    height:120px ;
+    background-color: map-get($colores, color-barra-menu);
+    height:12,5vh ;
 }
 
 
@@ -84,28 +87,28 @@ div p{
 .fin{
     display: grid;
     display: flex;
-    background-color:$color-barra-menu ;
+    background-color:map-get($colores, color-barra-menu);
     height:120px;
     width: 100%;
 }
 .nosotrospages{
     font-size: $tamanio-letra;
     font-family: $letra-menu;
-    color: $color-letra;
+    color: map-get($colores, color-letra);
     margin-left: 35px;
     margin-top: 50px;
 }
 .dondepages{
     font-size: $tamanio-letra;
     font-family: $letra-menu;
-    color: $color-letra;
+    color: map-get($colores, color-letra);
     margin-left: 350px;
     margin-top: 50px;
 }
 .siganospages{
     font-size: $tamanio-letra;
     font-family:$letra-menu;
-    color: $color-letra;
+    color: map-get($colores, color-letra);
     margin-top: 50px;
     margin-left: 500px;
 }
@@ -117,7 +120,7 @@ div p{
 }
 
 div h2 a{
-    color: $color-letra;
+    color: map-get($colores, color-letra);
     text-decoration: none;
 }
 
@@ -131,18 +134,14 @@ div h2 a{
 }
 .redes{
     display: flex;
+    height: 80vh;
+    align-items: center;
 }
 .wpp{
     margin-left: 200px;
     margin-top: 200px;
 }
-.fi{
-    display: flex;
-    background-color:$color-barra-menu ;
-    height:120px;
-    width: 100%;
-    margin-top:60px;
-}
+
 .casa{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
@@ -186,7 +185,7 @@ main h2{
 }
 .f{
     display: flex;
-    background-color:$color-barra-menu ;
+    background-color:map-get($colores, color-barra-menu);
     height:120px;
     width: 100%;
     margin-top:210px;
@@ -201,7 +200,7 @@ main h2{
 .cajapages li a{
     transition: all 0.5s ease;
     &:hover{
-        background-color: $color-barra-menu;
+        background-color:map-get($colores, color-barra-menu);
         border-radius: 15px;
     }
 }
@@ -226,7 +225,7 @@ button{
 margin-top:30px;
 margin-left: 70px;
 background:rgb(5, 150, 229) ;
-border: 3px solid $color-barra-menu;
+border: 3px solid map-get($colores, color-barra-menu);
 }
 
 .estilob{
@@ -234,3 +233,13 @@ border: 3px solid $color-barra-menu;
     text-decoration: none;
     
 }
+footer{
+    height: 20%;
+    width: 100%;
+}
+.conta{
+    width: 100%;
+    height: 80vh;
+}
+
+

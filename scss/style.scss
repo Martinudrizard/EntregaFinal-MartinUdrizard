@@ -6,9 +6,9 @@
 @import './base/variables';  /*primero declaro las variables para poder usarlas*/
 @import './base/generales';
 @import './responsivo/responsive';
-@import './secciones/alquileres';
-@import './secciones/inicio';
-@import './secciones/ventas';
+@import '../scss/secciones/alquileres';
+@import '../scss/secciones/inicio';
+@import '../scss/secciones/ventas';
 
 
 
