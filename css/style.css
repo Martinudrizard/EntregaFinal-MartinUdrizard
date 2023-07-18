@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-/*variables*/
+/*primero declaro las variables para poder usarlas*/
 @font-face {
   font-family: "opensans";
   src: url(../fonts/static/);
@@ -41,44 +41,9 @@ header nav ul li {
   list-style-type: none;
 }
 
-.principal {
-  color: aliceblue;
-  text-decoration: none;
-}
-
-.ini {
-  color: aliceblue;
-  font-family: "opensans";
-  font-size: 20px;
-  text-decoration: none;
-}
-
-.indfin {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 15vh;
-  background-color: rgb(5, 115, 174);
-  padding-left: 20px;
-}
-
 .menupaginas {
   text-decoration: none;
   color: aliceblue;
-}
-
-.cajamedio {
-  height: 66vh;
-  width: 100%;
-  background-image: url(../img/imagenmedio.png);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.abajoindex {
-  width: 100%;
-  background-color: rgb(5, 115, 174);
 }
 
 .inddondepages {
@@ -107,28 +72,12 @@ div p {
   font-size: 30px;
 }
 
-.nos {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.don {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.sig {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .cajapages {
   display: flex;
   width: 100%;
   position: fixed;
+  background-color: rgb(5, 115, 174);
+  height: 120px;
 }
 
 .int {
@@ -283,10 +232,6 @@ main h2 {
   border-radius: 15px;
 }
 
-.prueba {
-  flex-direction: column;
-}
-
 .casas {
   display: grid;
   display: flex;
@@ -294,94 +239,6 @@ main h2 {
   background-color: rgb(255, 255, 255);
   border: 3px solid;
   border-radius: 10px;
-}
-
-.alq1 {
-  height: 200px;
-  padding-left: 20px;
-  border-radius: 20px;
-}
-
-.alq2 {
-  height: 180px;
-  padding-left: 20px;
-  border-radius: 20px;
-}
-
-.alq3 {
-  height: 250px;
-  padding-left: 20px;
-  border-radius: 20px;
-}
-
-.alq4 {
-  height: 250px;
-  padding-left: 20px;
-  border-radius: 20px;
-}
-
-.alq5 {
-  height: 200px;
-  padding-left: 20px;
-  border-radius: 20px;
-}
-
-.alq6 {
-  height: 200px;
-  padding-left: 20px;
-  border-radius: 20px;
-}
-
-.casa1 {
-  padding-left: 20px;
-  height: 250px;
-  border-radius: 10px;
-}
-
-.casa2 {
-  height: 250px;
-  padding-left: 20px;
-  border-radius: 10px;
-}
-
-.casa3 {
-  height: 190px;
-  padding-top: 50px;
-  padding-left: 20px;
-  border-radius: 10px;
-}
-
-.casa4 {
-  height: 180px;
-  padding-top: 30px;
-  padding-left: 20px;
-  border-radius: 10px;
-}
-
-.casa5 {
-  height: 180px;
-  padding-top: 20px;
-  padding-left: 20px;
-  border-radius: 10px;
-}
-
-.casa6 {
-  height: 180px;
-  padding-top: 30px;
-  padding-left: 20px;
-  border-radius: 10px;
-}
-
-.venta {
-  background-image: url(../img/fondopages.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(4, 300px);
-  padding-left: 80px;
-  gap: 40px;
 }
 
 .info {
@@ -397,18 +254,6 @@ button {
   margin-left: 70px;
   background: rgb(5, 150, 229);
   border: 3px solid rgb(5, 115, 174);
-}
-
-.alquileres {
-  background-image: url(../img/fondopages.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(4, 300px);
-  padding-left: 80px;
-  gap: 40px;
 }
 
 .estilob {
@@ -592,6 +437,155 @@ button {
   .utlimo {
     flex-direction: column;
   }
+}
+.alq1 {
+  height: 200px;
+  padding-left: 20px;
+  border-radius: 20px;
+}
+
+.alq2 {
+  height: 180px;
+  padding-left: 20px;
+  border-radius: 20px;
+}
+
+.alq3 {
+  height: 250px;
+  padding-left: 20px;
+  border-radius: 20px;
+}
+
+.alq4 {
+  height: 250px;
+  padding-left: 20px;
+  border-radius: 20px;
+}
+
+.alq5 {
+  height: 200px;
+  padding-left: 20px;
+  border-radius: 20px;
+}
+
+.alq6 {
+  height: 200px;
+  padding-left: 20px;
+  border-radius: 20px;
+}
+
+.alquileres {
+  background-image: url(../img/fondopages.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(4, 300px);
+  padding-left: 40px;
+  padding-right: 40px;
+  gap: 40px;
+  padding-top: 200px;
+}
+
+.principal {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.cajamedio {
+  background-image: url(/img/imagenmedio.png);
+}
+
+.indfin {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 15vh;
+  background-color: rgb(5, 115, 174);
+  padding-left: 20px;
+}
+
+.cajamedio {
+  height: 569px;
+  width: 100%;
+  background-image: url(/img/imagenmedio.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.don {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sig {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.casa1 {
+  padding-left: 20px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.casa2 {
+  height: 250px;
+  padding-left: 20px;
+  border-radius: 10px;
+}
+
+.casa3 {
+  height: 190px;
+  padding-top: 50px;
+  padding-left: 20px;
+  border-radius: 10px;
+}
+
+.casa4 {
+  height: 180px;
+  padding-top: 30px;
+  padding-left: 20px;
+  border-radius: 10px;
+}
+
+.casa5 {
+  height: 180px;
+  padding-top: 20px;
+  padding-left: 20px;
+  border-radius: 10px;
+}
+
+.casa6 {
+  height: 180px;
+  padding-top: 30px;
+  padding-left: 20px;
+  border-radius: 10px;
+}
+
+.venta {
+  background-image: url(../img/fondopages.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(4, 300px);
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  gap: 40px;
+  padding-top: 200px;
 }
 
 /*# sourceMappingURL=style.css.map */

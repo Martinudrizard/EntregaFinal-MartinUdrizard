@@ -1,0 +1,49 @@
+.principal{
+    color: $color-letra;
+    text-decoration: none;
+}
+
+$fondo:cualquiercosa;
+
+@if $fondo == navidad{
+    .cajamedio{
+        background-image: url(/img/fondonavidad.jpg);
+    }
+}
+@else{
+    .cajamedio{
+        background-image: url(/img/imagenmedio.png);
+    }
+}
+
+.indfin{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+    background-color:$color-barra-menu;
+    padding-left: 20px;
+}
+.cajamedio{
+    height: 569px;
+    width: 100%;
+    background-image: url(/img/imagenmedio.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.don{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sig{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

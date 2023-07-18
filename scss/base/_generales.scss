@@ -1,0 +1,236 @@
+@font-face{
+    font-family:"opensans";
+    src: url(../fonts/static/);
+}
+@font-face {
+    font-family:"gatwick";
+    src: url(../fonts/__MACOSX/);
+}
+.logo{
+    background-image: url(../img/logo.jpg);
+    height: 120px;
+    width: 200px;
+}
+header{
+    background-color:$color-barra-menu ;
+    height: 20%;
+    display: flex;
+    justify-content: left;
+    position: fixed;
+    nav{
+        display: flex;
+        ul{
+            display: flex;
+            font-family: $letra-menu;
+            list-style-type: none;
+            li{
+                color: $color-letra;
+                margin-left: 80px;
+                font-size: $tamanio-letra;
+                margin-top: 50px;
+                list-style-type: none;
+            }
+        }
+    }
+}
+
+.menupaginas{
+    text-decoration: none;
+    color:$color-letra;
+}
+
+.inddondepages{
+    font-size: $tamanio-letra;
+    font-family:$letra-menu;
+}
+.indnosotrospages{
+    font-size: $letra-menu ;
+    color: $color-letra;
+    font-size: $tamanio-letra;
+}
+.indsiganospages{
+    font-size: $tamanio-letra;
+    font-family:$letra-menu;
+}
+div p{
+    text-align: center;
+    color: $color-letra;
+    padding-top: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: "gatwick";
+    font-size:30px;;
+}
+
+
+.cajapages{
+    display: flex;
+    width: 100%; 
+    position:fixed;
+    background-color: $color-barra-menu;
+    height:120px ;
+}
+
+
+.int{
+    text-align: center;
+    font-family: gatwick;
+    font-size: 50px;
+    color: black;
+}
+
+
+
+.fin{
+    display: grid;
+    display: flex;
+    background-color:$color-barra-menu ;
+    height:120px;
+    width: 100%;
+}
+.nosotrospages{
+    font-size: $tamanio-letra;
+    font-family: $letra-menu;
+    color: $color-letra;
+    margin-left: 35px;
+    margin-top: 50px;
+}
+.dondepages{
+    font-size: $tamanio-letra;
+    font-family: $letra-menu;
+    color: $color-letra;
+    margin-left: 350px;
+    margin-top: 50px;
+}
+.siganospages{
+    font-size: $tamanio-letra;
+    font-family:$letra-menu;
+    color: $color-letra;
+    margin-top: 50px;
+    margin-left: 500px;
+}
+.logonosotros{
+    margin-left: 80px;
+}
+.logoubi{
+    margin-left: 70px;
+}
+
+div h2 a{
+    color: $color-letra;
+    text-decoration: none;
+}
+
+.facebook{
+    margin-left: 200px;
+    margin-top: 200px;
+}
+.instagram{
+    margin-left: 200px;
+    margin-top: 200px;
+}
+.redes{
+    display: flex;
+}
+.wpp{
+    margin-left: 200px;
+    margin-top: 200px;
+}
+.fi{
+    display: flex;
+    background-color:$color-barra-menu ;
+    height:120px;
+    width: 100%;
+    margin-top:60px;
+}
+.casa{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    padding-left: 80px;
+    padding-top: 180px;
+    size: 20px;
+}
+.correo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    padding-left: 80px;
+    padding-top: 30px;
+}
+.wapp{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    padding-left: 80px;
+    padding-top: 30px;
+}
+main h2{
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.fondototal{
+    background-image: url(../img/fondopages.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.con{
+    color: black;
+}
+.ultimo{
+    display: flex;
+}
+.mapa{
+    padding-top: 200px;
+    padding-left: 300px;
+    height: 300px;
+    width: 300px;
+}
+.f{
+    display: flex;
+    background-color:$color-barra-menu ;
+    height:120px;
+    width: 100%;
+    margin-top:210px;
+}
+.Caja1 li a{
+    transition: all 0.5s ease;
+    &:hover{
+        background-color: rgb(175, 175, 175);
+        border-radius: 15px;
+    }
+}
+.cajapages li a{
+    transition: all 0.5s ease;
+    &:hover{
+        background-color: $color-barra-menu;
+        border-radius: 15px;
+    }
+}
+
+.casas{
+    display: grid;
+    display: flex;
+    align-items: center;
+    background-color:rgb(255, 255, 255) ;
+    border: 3px solid;
+    border-radius: 10px;
+}
+
+.info{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    font-size:15px;
+    padding-top: 50px;
+}
+button{
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+ font-size: 15px;
+margin-top:30px;
+margin-left: 70px;
+background:rgb(5, 150, 229) ;
+border: 3px solid $color-barra-menu;
+}
+
+.estilob{
+    color:black;
+    text-decoration: none;
+    
+}
