@@ -215,14 +215,7 @@ main h2{
     font-size:15px;
     padding-top: 50px;
 }
-.indfin{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 20vh;
-    background-color:map-get($colores, color-barra-menu);
-    padding-left: 20px;
-}
+
 
 button{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
