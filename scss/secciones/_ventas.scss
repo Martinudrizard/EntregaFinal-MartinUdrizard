@@ -1,36 +1,36 @@
-.casa1{
+@mixin distancia{
     padding-left: 20px;
-    height: 250px;
     border-radius: 10px;
+}
+
+.casa1{
+    @include distancia;
+    height: 250px;
+    
 }
 .casa2{
     height: 250px;
-    padding-left: 20px;
-    border-radius: 10px;
+    @include distancia;
 }
 .casa3{
         height: 190px;
         padding-top: 50px;
-        padding-left: 20px;
-        border-radius: 10px;
+        @include distancia;
 }
 .casa4{
     height: 180px;
     padding-top: 30px;
-    padding-left: 20px;
-    border-radius: 10px;
+    @include distancia;
 }
 .casa5{
     height: 180px;
     padding-top: 20px;
-    padding-left: 20px;
-    border-radius: 10px;
+    @include distancia;
 }
 .casa6{
     height: 180px;
     padding-top: 30px;
-    padding-left: 20px;
-    border-radius: 10px;
+    
 }
 .venta{
     background-image: url(../img/fondopages.jpg);
@@ -48,7 +48,7 @@
     
 }
 
-$fondo:descuento;
+$fondo:navidad;
 
 @if $fondo == navidad{
     .venta{

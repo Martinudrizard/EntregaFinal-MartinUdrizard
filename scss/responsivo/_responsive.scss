@@ -1,7 +1,7 @@
 @media (min-width:320px) and (max-width:720px){
     .venta{
         background-image:none;
-        background-color:$color-letra;
+        background-color:map-get($colores , color-letra );
         grid-template-columns:1fr;
         grid-template-rows:6fr;
         padding-left:80px;
@@ -24,7 +24,7 @@
         height: 100%;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: $tamanio-letra;
-        background-color:$color-barra-menu;
+        background-color:map-get($colores , color-barra-menu );
         align-items: center;
             
             
@@ -35,35 +35,35 @@
         }
         .fin{
         flex-direction: column;
-        background-color:$color-barra-menu ;
+        background-color:map-get($colores , color-barra-menu);
         height:120px;
         width: 100%;
         }
         .nosotrospages{
         font-size: 10px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color: $color-letra;
+        color: map-get($colores , color-letra );
         margin-left: 35px;
         margin-top: 50px;
         }
         .dondepages{
         font-size: 10px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color: $color-letra;
+        color: map-get($colores , color-letra);
         margin-left: 30px;
         margin-top: 50px;
         }
         .siganospages{
         font-size: 10px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color: $color-letra;
+        color: map-get($colores , color-letra);
         margin-top: 50px;
         margin-left: 50px;
         }
         header nav ul{
         flex-direction: column;   
         li{
-            color: $color-letra;
+            color: map-get($colores , color-letra );
             margin-left:0px;
             font-size: 15px;
             margin-top: 50px;
@@ -123,8 +123,8 @@
         font-size: 10px;
         margin-top:30px;
         margin-left: 70px;
-        background:$color-barra-menu;
-        border: 3px solid $color-barra-menu;
+        background:map-get($colores , color-barra-menu );
+        border: 3px solid map-get($colores , color-barra-menu );
         }
         .casas{
         padding-left: 10%;
@@ -167,7 +167,7 @@
             display: grid;
             display: flex;
             align-items: center;
-            background-color:$color-letra ;
+            background-color:map-get($colores , color-letra );
             border:none;
             border-radius: 10px;
         }

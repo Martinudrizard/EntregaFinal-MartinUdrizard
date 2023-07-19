@@ -32,6 +32,7 @@ header{
                 font-size: $tamanio-letra;
                 margin-top: 50px;
                 list-style-type: none;
+                
             }
         }
     }
@@ -123,14 +124,16 @@ div h2 a{
     color: map-get($colores, color-letra);
     text-decoration: none;
 }
-
-.facebook{
+.margenes{
     margin-left: 200px;
     margin-top: 200px;
 }
+
+.facebook{
+    @extend .margenes;
+}
 .instagram{
-    margin-left: 200px;
-    margin-top: 200px;
+    @extend .margenes;
 }
 .redes{
     display: flex;
@@ -138,8 +141,7 @@ div h2 a{
     align-items: center;
 }
 .wpp{
-    margin-left: 200px;
-    margin-top: 200px;
+    @extend .margenes;
 }
 
 .casa{
@@ -190,13 +192,7 @@ main h2{
     width: 100%;
     margin-top:210px;
 }
-.Caja1 li a{
-    transition: all 0.5s ease;
-    &:hover{
-        background-color: rgb(175, 175, 175);
-        border-radius: 15px;
-    }
-}
+
 .cajapages li a{
     transition: all 0.5s ease;
     &:hover{
@@ -219,19 +215,27 @@ main h2{
     font-size:15px;
     padding-top: 50px;
 }
+.indfin{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+    background-color:map-get($colores, color-barra-menu);
+    padding-left: 20px;
+}
+
 button{
- font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
- font-size: 15px;
-margin-top:30px;
-margin-left: 70px;
-background:rgb(5, 150, 229) ;
-border: 3px solid map-get($colores, color-barra-menu);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    font-size: 15px;
+    margin-top:30px;
+    margin-left: 70px;
+    background:map-get($colores, color-barra-menu);
+    border: 3px solid rgb(32, 86, 195);
 }
 
 .estilob{
     color:black;
     text-decoration: none;
-    
 }
 footer{
     height: 20%;

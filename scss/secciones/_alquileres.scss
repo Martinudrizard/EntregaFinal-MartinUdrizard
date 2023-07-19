@@ -1,32 +1,35 @@
-.alq1{
-    height: 200px;
+ @mixin bordes-distancia{
     padding-left: 20px;
     border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+
+.alq1{
+    height: 200px;
+    @include bordes-distancia;
 }
 .alq2{
     height: 180px;
-    padding-left: 20px;
-    border-radius: 20px;
+    @include bordes-distancia;
 }
 .alq3{
     height: 250px;
-    padding-left: 20px;
-    border-radius: 20px;
+    @include bordes-distancia;
 }
 .alq4{
     height: 250px;
-    padding-left: 20px;
-    border-radius: 20px;
+    @include bordes-distancia;
 }
 .alq5{
     height: 200px;
-    padding-left: 20px;
-    border-radius: 20px;
+    @include bordes-distancia;
 }
 .alq6{
     height: 200px;
-    padding-left: 20px;
-    border-radius: 20px;
+    @include bordes-distancia;
 }
 .alquileres{
     background-image: url(../img/fondopages.jpg);
@@ -41,7 +44,7 @@
     gap: 40px;
     padding-top: 200px;
 }
-$fondo: descuento;
+$fondo: navidad;
 
 @if $fondo == navidad{
     .alquileres{

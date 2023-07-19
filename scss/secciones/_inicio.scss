@@ -1,5 +1,5 @@
 .principal{
-    color: map-get($colores,color-letra);
+    color: map-get($colores, color-letra);
     text-decoration: none;
 }
 
@@ -11,7 +11,7 @@
     justify-content: space-around;
     align-items: center;
     height: 20vh;
-    background-color:map-get($colores,color-barra-menu);
+    background-color:map-get($colores, color-barra-menu);
     padding-left: 20px;
 }
 .cajamedio{
@@ -37,7 +37,7 @@
     flex-direction: column;
     align-items: center;
 }
-$fondo:descuento;
+$fondo:navidad;
 
 @if $fondo == navidad{
     .cajamedio{
