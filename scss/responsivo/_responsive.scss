@@ -24,38 +24,42 @@
         background-size: cover;
         display: grid;
         grid-template-columns:1fr;
-        grid-template-rows: repeat(6,800px);
+        grid-template-rows: repeat(6,600px);
         align-items: center;
         padding-left:40px;
         padding-right: 40px;
         gap: 10px;
-        padding-top: 0px;
+        padding-top: 180px;
         
     }
-    .indfin{
-        display: none;
-    }
+    
     .casas{
         display: grid;
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         background-color:rgb(255, 255, 255) ;
         border: 3px solid;
         border-radius: 10px;
     }
     .alquileres{
-        background-image: url(../img/fondopages.jpg);
+        background-image:none;
+        background-color: aliceblue;
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
         display: grid;
         grid-template-columns:1fr;
-        grid-template-rows: repeat(6,500px);
+        grid-template-rows: repeat(6,700px);
         padding-left:40px;
         padding-right: 40px;
-        gap: 40px;
-        padding-top: 200px;
+        gap: 10px;
+        padding-top: 180px;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
     }
    
 
