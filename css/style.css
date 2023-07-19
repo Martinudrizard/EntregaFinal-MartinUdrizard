@@ -450,6 +450,7 @@ footer {
     background-color: rgb(255, 255, 255);
     border: 3px solid;
     border-radius: 10px;
+    width: 100%;
   }
   .alquileres {
     background-image: none;
@@ -468,6 +469,91 @@ footer {
     display: flex;
     justify-content: center;
     flex-direction: column;
+  }
+  .info {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    padding-top: 5px;
+  }
+  .casa1 {
+    padding-left: 20px;
+    border-radius: 10px;
+    height: 50vh;
+  }
+  .casa2 {
+    height: 50vh;
+    padding-left: 20px;
+    border-radius: 10px;
+  }
+  .casa3 {
+    height: 50vh;
+    padding-top: 50px;
+    padding-left: 20px;
+    border-radius: 10px;
+  }
+  .casa4 {
+    height: 50vh;
+    padding-top: 30px;
+    padding-left: 20px;
+    border-radius: 10px;
+  }
+  .casa5 {
+    height: 50vh;
+    padding-top: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+  }
+  .casa6 {
+    height: 50vh;
+    padding-top: 30px;
+  }
+  .alq1 {
+    height: 50vh;
+    padding-left: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .alq2 {
+    height: 50vh;
+    padding-left: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .alq3 {
+    height: 50vh;
+    padding-left: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .alq4 {
+    height: 50vh;
+    padding-left: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .alq5 {
+    height: 50vh;
+    padding-left: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .alq6 {
+    height: 50vh;
+    padding-left: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 

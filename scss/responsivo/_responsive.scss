@@ -42,6 +42,7 @@
         background-color:rgb(255, 255, 255) ;
         border: 3px solid;
         border-radius: 10px;
+        width: 100%;
     }
     .alquileres{
         background-image:none;
@@ -60,6 +61,64 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
+    }
+    .info{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+        font-size:15px;
+        padding-top: 5px;
+    }
+    .casa1{
+        @include distancia;
+        height: 50vh;
+        
+    }
+    .casa2{
+        height: 50vh;
+        @include distancia;
+    }
+    .casa3{
+            height: 50vh;
+            padding-top: 50px;
+            @include distancia;
+    }
+    .casa4{
+        height: 50vh;
+        padding-top: 30px;
+        @include distancia;
+    }
+    .casa5{
+        height: 50vh;
+        padding-top: 20px;
+        @include distancia;
+    }
+    .casa6{
+        height: 50vh;
+        padding-top: 30px;
+        
+    }
+    .alq1{
+        height: 50vh;
+        @include bordes-distancia;
+    }
+    .alq2{
+        height: 50vh;
+        @include bordes-distancia;
+    }
+    .alq3{
+        height: 50vh;
+        @include bordes-distancia;
+    }
+    .alq4{
+        height: 50vh;
+        @include bordes-distancia;
+    }
+    .alq5{
+        height: 50vh;
+        @include bordes-distancia;
+    }
+    .alq6{
+        height: 50vh;
+        @include bordes-distancia;
     }
    
 
