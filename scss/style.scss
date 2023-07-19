@@ -3,9 +3,9 @@
     padding: 0;
 }
 
-@import './base/variables';  /*primero declaro las variables para poder usarlas*/
-@import './base/generales';
-@import './responsivo/responsive';
+@import '../scss/base/variables';  /*primero declaro las variables para poder usarlas*/
+@import '../scss/base/generales';
+@import '../scss/responsivo/responsive';
 @import '../scss/secciones/alquileres';
 @import '../scss/secciones/inicio';
 @import '../scss/secciones/ventas';

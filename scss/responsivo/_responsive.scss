@@ -1,183 +1,48 @@
 @media (min-width:320px) and (max-width:720px){
+    .cajapages{
+        display: flex;
+        width: 100%; 
+        height: 10vh;
+        background-color: map-get($colores, color-barra-menu);
+        height:12,5vh ;
+        align-items: left;
+        position: fixed;
+    }
+    img.logo{
+        display:none;
+    }
+    .col-2{
+        display: none;
+    }
     .venta{
         background-image:none;
-        background-color:map-get($colores , color-letra );
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: grid;
         grid-template-columns:1fr;
-        grid-template-rows:6fr;
-        padding-left:80px;
-        
-        padding-top: 200px;
-        align-content: center;
-        }
-        .alquileres{
-        background-image:none;  
-        grid-template-columns:1fr;
-        grid-template-rows:6fr;
-        padding-left:80px;
-        gap: 40px;
-        padding-top: 200px;
-        }
-        .cajapages{
-        padding-top: 0px;
-        flex-direction: column;
-        width: 120px;
-        height: 100%;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: $tamanio-letra;
-        background-color:map-get($colores , color-barra-menu );
+        grid-template-rows: repeat(6,300px);
         align-items: center;
-            
-            
-        }
-        .inicio{
-            display: flex;
-            flex-direction: column;
-        }
-        .fin{
-        flex-direction: column;
-        background-color:map-get($colores , color-barra-menu);
-        height:120px;
-        width: 100%;
-        }
-        .nosotrospages{
-        font-size: 10px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color: map-get($colores , color-letra );
-        margin-left: 35px;
-        margin-top: 50px;
-        }
-        .dondepages{
-        font-size: 10px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color: map-get($colores , color-letra);
-        margin-left: 30px;
-        margin-top: 50px;
-        }
-        .siganospages{
-        font-size: 10px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color: map-get($colores , color-letra);
-        margin-top: 50px;
-        margin-left: 50px;
-        }
-        header nav ul{
-        flex-direction: column;   
-        li{
-            color: map-get($colores , color-letra );
-            margin-left:0px;
-            font-size: 15px;
-            margin-top: 50px;
-            list-style-type: none;
-            display: flex;
-            }
-        }
-        .logo{
-            width: 100%;
-            height: 120px;
-            justify-content: center;
-        }
-        .fin{
+        padding-left:40px;
+        padding-right: 40px;
+        gap: 40px;
+        padding-top: 0px;
+        
+    }
+    .indfin{
         display: none;
-        }
-        .casa1{
-            padding-left:0px;
-            height: 120px;
-            border-radius: 10px;
-        }
-        .casa2{
-            height: 120px;
-            padding-left:0px;
-            border-radius: 10px;
-        }
-        .casa3{
-                height: 160px;
-                padding-top: 50px;
-                padding-left: 0px;
-                border-radius: 10px;
-        }
-        .casa4{
-            height: 120px;
-            padding-top: 30px;
-            padding-left: 0px;
-            border-radius: 10px;
-        }
-        .casa5{
-            height: 120px;
-            padding-top: 20px;
-            padding-left: 0px;
-            border-radius: 10px;
-        }
-        .casa6{
-            height: 120px;
-            padding-top: 30px;
-            padding-left: 0px;
-            border-radius: 10px;
-        }
-        .info{
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
-            font-size:10px;
-            padding-top: 10px;
-        }
-        button{
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
-        font-size: 10px;
-        margin-top:30px;
-        margin-left: 70px;
-        background:map-get($colores , color-barra-menu );
-        border: 3px solid map-get($colores , color-barra-menu );
-        }
-        .casas{
-        padding-left: 10%;
+    }
+    .casas{
+        display: grid;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color:rgb(255, 255, 255) ;
         border: 3px solid;
-        }
-        .menupaginas{
-        padding-left: 10px;
-        }
-        .alq1{
-            height: 120px;
-            padding-left: 20px;
-            border-radius: 20px;
-        }
-        .alq2{
-            height: 120px;
-            padding-left: 20px;
-            border-radius: 20px;
-        }
-        .alq3{
-            height: 120px;
-            padding-left: 20px;
-            border-radius: 20px;
-        }
-        .alq4{
-            height: 120px;
-            padding-left: 20px;
-            border-radius: 20px;
-        }
-        .alq5{
-            height: 120px;
-            padding-left: 20px;
-            border-radius: 20px;
-        }
-        .alq6{
-            height: 120px;
-            padding-left: 20px;
-            border-radius: 20px;
-        }
-        .casas{
-            display: grid;
-            display: flex;
-            align-items: center;
-            background-color:map-get($colores , color-letra );
-            border:none;
-            border-radius: 10px;
-        }
-        .fi{
-            display: none;
-            
-        }
-        .utlimo{
-            flex-direction: column;
-        }
+        border-radius: 10px;
+    }
+   
+
         
         
     
