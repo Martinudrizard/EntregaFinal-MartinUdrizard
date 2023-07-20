@@ -67,59 +67,31 @@
         font-size:15px;
         padding-top: 5px;
     }
-    .casa1{
-        @include distancia;
-        height: 50vh;
-        
-    }
-    .casa2{
-        height: 50vh;
-        @include distancia;
-    }
-    .casa3{
-            height: 50vh;
-            padding-top: 50px;
-            @include distancia;
-    }
-    .casa4{
-        height: 50vh;
-        padding-top: 30px;
-        @include distancia;
-    }
-    .casa5{
-        height: 50vh;
-        padding-top: 20px;
-        @include distancia;
-    }
-    .casa6{
-        height: 50vh;
-        padding-top: 30px;
-        
-    }
     .alq1{
-        height: 50vh;
-        @include bordes-distancia;
-    }
-    .alq2{
-        height: 50vh;
-        @include bordes-distancia;
-    }
-    .alq3{
-        height: 50vh;
-        @include bordes-distancia;
-    }
-    .alq4{
-        height: 50vh;
-        @include bordes-distancia;
-    }
-    .alq5{
-        height: 50vh;
-        @include bordes-distancia;
-    }
-    .alq6{
         height: 100%;
         @include bordes-distancia;
     }
+    .alq2{
+        height: 180px;
+        @include bordes-distancia;
+    }
+    .alq3{
+        height: 250px;
+        @include bordes-distancia;
+    }
+    .alq4{
+        height: 250px;
+        @include bordes-distancia;
+    }
+    .alq5{
+        height: 200px;
+        @include bordes-distancia;
+    }
+    .alq6{
+        height: 200px;
+        @include bordes-distancia;
+    }
+   
    
 
         
