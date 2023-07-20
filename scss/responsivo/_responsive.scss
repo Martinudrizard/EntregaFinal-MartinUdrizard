@@ -104,6 +104,40 @@
         width: 100%;
         @include bordes-distancia;
     }
+    @mixin distancia{
+        padding-left: 0px;
+        border-radius: 10px;
+        width: 100%;
+    }
+    
+    .casa1{
+        @include distancia;
+        height: 30vh;
+        
+    }
+    .casa2{
+        height: 30vh;
+        @include distancia;
+    }
+    .casa3{
+            height: 30vh;
+            
+            @include distancia;
+    }
+    .casa4{
+        height:30vh;
+        
+        @include distancia;
+    }
+    .casa5{
+        height:30vh;
+        @include distancia;
+    }
+    .casa6{
+        height: 30vh;
+        @include distancia;
+        
+    }
     
  
 }
