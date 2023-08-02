@@ -17,12 +17,19 @@
   height: 120px;
 }
 
+/*menu hamburguesa*/
+.navbar navbar-expand-lg bg-body-tertiary {
+  background-color: rgb(5, 115, 174);
+}
+
+/*sin menu hamburguesa*/
 header {
   background-color: rgb(5, 115, 174);
   height: 20%;
   display: flex;
   justify-content: left;
   position: fixed;
+  width: 100%;
 }
 header nav {
   display: flex;
@@ -253,6 +260,14 @@ footer {
   height: 20vh;
   background-color: rgb(5, 115, 174);
   padding-left: 20px;
+}
+
+.logo {
+  height: 120px;
+}
+
+a .nav-link active {
+  color: white;
 }
 
 .alq1 {
