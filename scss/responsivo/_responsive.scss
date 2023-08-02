@@ -1,4 +1,4 @@
-@media (min-width:320px) and (max-width:720px){
+@media (min-width:320px) and (max-width:480px){
     .cajapages{
         display: flex;
         width: 100%; 
@@ -137,6 +137,11 @@
         height: 30vh;
         @include distancia;
         
+    }
+    .indfin{
+        flex-direction: column;
+        align-items: center;
+        height: 40vh;
     }
     
  
