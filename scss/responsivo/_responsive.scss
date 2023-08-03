@@ -140,6 +140,21 @@
         align-items: center;
         height: 40vh;
     }
-    
+    .ultimo{
+        flex-direction: column;
+        align-items: center;
+    }
+    .casa{
+        padding-left: 10px;
+    }
+    .correo{
+        padding-left: 10px;
+    }
+    .wapp{
+        padding-left: 10px;
+    }
+    .mapa{
+       display: none;
+    }
  
 }

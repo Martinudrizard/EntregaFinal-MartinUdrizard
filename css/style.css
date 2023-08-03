@@ -472,7 +472,7 @@ footer {
     padding-left: 40px;
     padding-right: 40px;
     gap: 10px;
-    padding-top: 180px;
+    padding-top: 300px;
     padding-bottom: 20px;
     display: flex;
     justify-content: center;
@@ -577,6 +577,22 @@ footer {
     flex-direction: column;
     align-items: center;
     height: 40vh;
+  }
+  .ultimo {
+    flex-direction: column;
+    align-items: center;
+  }
+  .casa {
+    padding-left: 10px;
+  }
+  .correo {
+    padding-left: 10px;
+  }
+  .wapp {
+    padding-left: 10px;
+  }
+  .mapa {
+    display: none;
   }
 }
 
