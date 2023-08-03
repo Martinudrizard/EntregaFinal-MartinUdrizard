@@ -266,10 +266,6 @@ footer {
   height: 120px;
 }
 
-a .nav-link active {
-  color: white;
-}
-
 .alq1 {
   height: 200px;
   padding-left: 20px;
@@ -435,9 +431,6 @@ a .nav-link active {
   }
   header {
     position: fixed;
-  }
-  img.logo {
-    display: none;
   }
   .col-2 {
     display: none;
