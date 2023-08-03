@@ -1,0 +1,598 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*primero declaro las variables para poder usarlas*/
+@font-face {
+  font-family: "opensans";
+  src: url(../fonts/static/);
+}
+@font-face {
+  font-family: "gatwick";
+  src: url(../fonts/__MACOSX/);
+}
+.logo {
+  background-image: url(../img/logo.jpg);
+  height: 120px;
+}
+
+/*menu hamburguesa*/
+.navbar navbar-expand-lg bg-body-tertiary {
+  background-color: rgb(5, 115, 174);
+}
+
+/*sin menu hamburguesa*/
+header {
+  background-color: rgb(5, 115, 174);
+  display: flex;
+  justify-content: left;
+  position: fixed;
+  width: 100%;
+}
+header nav {
+  display: flex;
+}
+header nav ul {
+  display: flex;
+  font-family: "opensans";
+  list-style-type: none;
+}
+header nav ul li {
+  color: aliceblue;
+  margin-left: 80px;
+  font-size: 20px;
+  margin-top: 50px;
+  list-style-type: none;
+}
+
+.menupaginas {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.inddondepages {
+  font-size: 20px;
+  font-family: "opensans";
+}
+
+.indnosotrospages {
+  font-size: "opensans";
+  color: aliceblue;
+  font-size: 20px;
+}
+
+.indsiganospages {
+  font-size: 20px;
+  font-family: "opensans";
+}
+
+div p {
+  text-align: center;
+  color: aliceblue;
+  padding-top: 200px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: "gatwick";
+  font-size: 30px;
+}
+
+.cajapages {
+  display: flex;
+  width: 100%;
+  position: fixed;
+  background-color: rgb(5, 115, 174);
+  height: 12, 5vh;
+}
+
+.int {
+  text-align: center;
+  font-family: gatwick;
+  font-size: 50px;
+  color: black;
+}
+
+.fin {
+  display: grid;
+  display: flex;
+  background-color: rgb(5, 115, 174);
+  height: 120px;
+  width: 100%;
+}
+
+.nosotrospages {
+  font-size: 20px;
+  font-family: "opensans";
+  color: aliceblue;
+  margin-left: 35px;
+  margin-top: 50px;
+}
+
+.dondepages {
+  font-size: 20px;
+  font-family: "opensans";
+  color: aliceblue;
+  margin-left: 350px;
+  margin-top: 50px;
+}
+
+.siganospages {
+  font-size: 20px;
+  font-family: "opensans";
+  color: aliceblue;
+  margin-top: 50px;
+  margin-left: 500px;
+}
+
+.logonosotros {
+  margin-left: 80px;
+}
+
+.logoubi {
+  margin-left: 70px;
+}
+
+div h2 a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.margenes, .wpp, .instagram, .facebook {
+  margin-left: 200px;
+  margin-top: 200px;
+}
+
+.redes {
+  display: flex;
+  height: 80vh;
+  align-items: center;
+}
+
+.casa {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  padding-left: 80px;
+  padding-top: 180px;
+  size: 20px;
+}
+
+.correo {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  padding-left: 80px;
+  padding-top: 30px;
+}
+
+.wapp {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  padding-left: 80px;
+  padding-top: 30px;
+}
+
+main h2 {
+  padding-top: 10px;
+  padding-left: 30px;
+}
+
+.fondototal {
+  background-image: url(../img/fondopages.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.con {
+  color: black;
+}
+
+.ultimo {
+  display: flex;
+}
+
+.mapa {
+  padding-top: 200px;
+  padding-left: 300px;
+  height: 300px;
+  width: 300px;
+}
+
+.f {
+  display: flex;
+  background-color: rgb(5, 115, 174);
+  height: 120px;
+  width: 100%;
+  margin-top: 210px;
+}
+
+.cajapages li a {
+  transition: all 0.5s ease;
+}
+.cajapages li a:hover {
+  background-color: rgb(5, 115, 174);
+  border-radius: 15px;
+}
+
+.casas {
+  display: grid;
+  display: flex;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border: 3px solid;
+  border-radius: 10px;
+}
+
+.info {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  padding-top: 50px;
+}
+
+button {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  margin-top: 30px;
+  margin-left: 70px;
+  background: rgb(5, 115, 174);
+  border: 3px solid rgb(32, 86, 195);
+}
+
+.estilob {
+  color: black;
+  text-decoration: none;
+}
+
+footer {
+  height: 20%;
+  width: 100%;
+}
+
+.conta {
+  width: 100%;
+  height: 80vh;
+}
+
+.indfin {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 20vh;
+  background-color: rgb(5, 115, 174);
+  padding-left: 20px;
+}
+
+.logo {
+  height: 120px;
+}
+
+.alq1 {
+  height: 200px;
+  padding-left: 20px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.alq2 {
+  height: 180px;
+  padding-left: 20px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.alq3 {
+  height: 250px;
+  padding-left: 20px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.alq4 {
+  height: 250px;
+  padding-left: 20px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.alq5 {
+  height: 200px;
+  padding-left: 20px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.alq6 {
+  height: 200px;
+  padding-left: 20px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.alquileres {
+  background-image: url(../img/fondopages.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(4, 300px);
+  padding-left: 40px;
+  padding-right: 40px;
+  gap: 40px;
+  padding-top: 200px;
+}
+
+.principal {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.cajamedio {
+  height: 80vh;
+  width: 100%;
+  background-image: url(../img/imagenmedio.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.don {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sig {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.casa1 {
+  padding-left: 20px;
+  border-radius: 10px;
+  height: 250px;
+}
+
+.casa2 {
+  height: 250px;
+  padding-left: 20px;
+  border-radius: 10px;
+}
+
+.casa3 {
+  height: 190px;
+  padding-top: 50px;
+  padding-left: 20px;
+  border-radius: 10px;
+}
+
+.casa4 {
+  height: 180px;
+  padding-top: 30px;
+  padding-left: 20px;
+  border-radius: 10px;
+}
+
+.casa5 {
+  height: 180px;
+  padding-top: 20px;
+  padding-left: 20px;
+  border-radius: 10px;
+}
+
+.casa6 {
+  height: 180px;
+  padding-top: 30px;
+}
+
+.venta {
+  background-image: url(../img/fondopages.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(4, 300px);
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  gap: 40px;
+  padding-top: 200px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .cajapages {
+    display: flex;
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(5, 115, 174);
+    height: 12, 5vh;
+    align-items: left;
+    position: fixed;
+  }
+  header {
+    position: fixed;
+  }
+  .col-2 {
+    display: none;
+  }
+  .venta {
+    background-image: none;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 450px);
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    gap: 2px;
+    padding-top: 180px;
+  }
+  .casas {
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid;
+    border-radius: 10px;
+    width: 100%;
+  }
+  .alquileres {
+    background-image: none;
+    background-color: aliceblue;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 600px);
+    padding-left: 40px;
+    padding-right: 40px;
+    gap: 10px;
+    padding-top: 300px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .info {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    padding-top: 5px;
+  }
+  .alq1 {
+    height: 30vh;
+    width: 100%;
+    padding-left: 0px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .alq2 {
+    height: 30vh;
+    width: 100%;
+    padding-left: 0px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .alq3 {
+    height: 30vh;
+    width: 100%;
+    padding-left: 0px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .alq4 {
+    height: 30vh;
+    width: 100%;
+    padding-left: 0px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .alq5 {
+    height: 30vh;
+    width: 100%;
+    padding-left: 0px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .alq6 {
+    height: 30vh;
+    width: 100%;
+    padding-left: 0px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .casa1 {
+    padding-left: 0px;
+    border-radius: 10px;
+    width: 100%;
+    height: 30vh;
+  }
+  .casa2 {
+    height: 30vh;
+    padding-left: 0px;
+    border-radius: 10px;
+    width: 100%;
+  }
+  .casa3 {
+    height: 30vh;
+    padding-left: 0px;
+    border-radius: 10px;
+    width: 100%;
+  }
+  .casa4 {
+    height: 30vh;
+    padding-left: 0px;
+    border-radius: 10px;
+    width: 100%;
+  }
+  .casa5 {
+    height: 30vh;
+    padding-left: 0px;
+    border-radius: 10px;
+    width: 100%;
+  }
+  .casa6 {
+    height: 30vh;
+    padding-left: 0px;
+    border-radius: 10px;
+    width: 100%;
+  }
+  .indfin {
+    flex-direction: column;
+    align-items: center;
+    height: 40vh;
+  }
+  .ultimo {
+    flex-direction: column;
+    align-items: center;
+  }
+  .casa {
+    padding-left: 10px;
+  }
+  .correo {
+    padding-left: 10px;
+  }
+  .wapp {
+    padding-left: 10px;
+  }
+  .mapa {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
