@@ -25,7 +25,6 @@
 /*sin menu hamburguesa*/
 header {
   background-color: rgb(5, 115, 174);
-  height: 20%;
   display: flex;
   justify-content: left;
   position: fixed;
