@@ -156,5 +156,9 @@
     .mapa{
        display: none;
     }
- 
+    .redes{
+        flex-direction: column;
+        height: 150vh;
+        align-items:start;
+    }
 }

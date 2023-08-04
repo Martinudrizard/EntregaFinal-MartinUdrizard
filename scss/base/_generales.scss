@@ -15,6 +15,11 @@
 .navbar navbar-expand-lg bg-body-tertiary{
     background-color:map-get($colores, color-barra-menu);
 }
+.nav-link{
+    color: aliceblue;
+}
+
+
 
 /*sin menu hamburguesa*/
 header{
@@ -30,16 +35,20 @@ header{
             font-family: $letra-menu;
             list-style-type: none;
             li{
-                color:map-get($colores , color-letra);
                 margin-left: 80px;
                 font-size: $tamanio-letra;
                 margin-top: 50px;
                 list-style-type: none;
+                a{
+                    color:map-get($colores , color-letra);
+                }
                 
             }
+           
         }
     }
 }
+
 
 .menupaginas{
     text-decoration: none;
@@ -196,7 +205,7 @@ main h2{
     margin-top:210px;
 }
 
-.cajapages li a{
+nav li a{
     transition: all 0.5s ease;
     &:hover{
         background-color:map-get($colores, color-barra-menu);

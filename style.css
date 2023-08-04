@@ -22,6 +22,10 @@
   background-color: rgb(5, 115, 174);
 }
 
+.nav-link {
+  color: aliceblue;
+}
+
 /*sin menu hamburguesa*/
 header {
   background-color: rgb(5, 115, 174);
@@ -39,11 +43,13 @@ header nav ul {
   list-style-type: none;
 }
 header nav ul li {
-  color: aliceblue;
   margin-left: 80px;
   font-size: 20px;
   margin-top: 50px;
   list-style-type: none;
+}
+header nav ul li a {
+  color: aliceblue;
 }
 
 .menupaginas {
@@ -205,10 +211,10 @@ main h2 {
   margin-top: 210px;
 }
 
-.cajapages li a {
+nav li a {
   transition: all 0.5s ease;
 }
-.cajapages li a:hover {
+nav li a:hover {
   background-color: rgb(5, 115, 174);
   border-radius: 15px;
 }
@@ -592,6 +598,11 @@ footer {
   }
   .mapa {
     display: none;
+  }
+  .redes {
+    flex-direction: column;
+    height: 150vh;
+    align-items: start;
   }
 }
 
