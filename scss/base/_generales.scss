@@ -57,7 +57,7 @@ header{
     font-family:$letra-menu;
 }
 .indnosotrospages{
-    font-size: $letra-menu ;
+    font-family: $letra-menu;
     color: map-get($colores, color-letra);
     font-size: $tamanio-letra;
 }
@@ -91,7 +91,6 @@ div p{
     font-size: 50px;
     color: black;
 }
-
 
 
 .fin{
@@ -257,6 +256,10 @@ footer{
 }
 .logo{
     height: 120px;
+}
+.centrado {
+    text-align: center;
+    padding-top: 300px;
 }
 
 
