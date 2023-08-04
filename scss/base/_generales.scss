@@ -39,9 +39,6 @@ header{
                 font-size: $tamanio-letra;
                 margin-top: 50px;
                 list-style-type: none;
-                a{
-                    color:map-get($colores , color-letra);
-                }
                 
             }
            

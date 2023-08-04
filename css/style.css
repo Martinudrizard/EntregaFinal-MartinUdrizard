@@ -48,9 +48,6 @@ header nav ul li {
   margin-top: 50px;
   list-style-type: none;
 }
-header nav ul li a {
-  color: aliceblue;
-}
 
 .menupaginas {
   text-decoration: none;
@@ -332,11 +329,12 @@ footer {
   background-size: cover;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(4, 300px);
+  grid-template-rows: repeat(3, 300px);
   padding-left: 40px;
   padding-right: 40px;
   gap: 40px;
   padding-top: 200px;
+  padding-bottom: 20px;
 }
 
 .principal {
@@ -416,15 +414,198 @@ footer {
   background-size: cover;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(4, 300px);
+  grid-template-rows: repeat(3, 300px);
   align-items: center;
   padding-left: 40px;
   padding-right: 40px;
   gap: 40px;
   padding-top: 200px;
+  padding-bottom: 20px;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
+  .cajapages {
+    display: flex;
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(5, 115, 174);
+    height: 12, 5vh;
+    align-items: left;
+    position: fixed;
+  }
+  header {
+    position: fixed;
+  }
+  .col-2 {
+    display: none;
+  }
+  .venta {
+    background-image: none;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 450px);
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    gap: 2px;
+    padding-top: 180px;
+  }
+  .casas {
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid;
+    border-radius: 10px;
+    width: 100%;
+  }
+  .alquileres {
+    background-image: none;
+    background-color: aliceblue;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 600px);
+    padding-left: 40px;
+    padding-right: 40px;
+    gap: 10px;
+    padding-top: 300px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .info {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    padding-top: 5px;
+  }
+  .alq1 {
+    height: 30vh;
+    width: 100%;
+    padding-left: 0px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .alq2 {
+    height: 30vh;
+    width: 100%;
+    padding-left: 0px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .alq3 {
+    height: 30vh;
+    width: 100%;
+    padding-left: 0px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .alq4 {
+    height: 30vh;
+    width: 100%;
+    padding-left: 0px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .alq5 {
+    height: 30vh;
+    width: 100%;
+    padding-left: 0px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .alq6 {
+    height: 30vh;
+    width: 100%;
+    padding-left: 0px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .casa1 {
+    padding-left: 0px;
+    border-radius: 10px;
+    width: 100%;
+    height: 30vh;
+  }
+  .casa2 {
+    height: 30vh;
+    padding-left: 0px;
+    border-radius: 10px;
+    width: 100%;
+  }
+  .casa3 {
+    height: 30vh;
+    padding-left: 0px;
+    border-radius: 10px;
+    width: 100%;
+  }
+  .casa4 {
+    height: 30vh;
+    padding-left: 0px;
+    border-radius: 10px;
+    width: 100%;
+  }
+  .casa5 {
+    height: 30vh;
+    padding-left: 0px;
+    border-radius: 10px;
+    width: 100%;
+  }
+  .casa6 {
+    height: 30vh;
+    padding-left: 0px;
+    border-radius: 10px;
+    width: 100%;
+  }
+  .indfin {
+    flex-direction: column;
+    align-items: center;
+    height: 40vh;
+  }
+  .ultimo {
+    flex-direction: column;
+    align-items: center;
+  }
+  .casa {
+    padding-left: 10px;
+  }
+  .correo {
+    padding-left: 10px;
+  }
+  .wapp {
+    padding-left: 10px;
+  }
+  .mapa {
+    display: none;
+  }
+  .redes {
+    flex-direction: column;
+    height: 150vh;
+    align-items: start;
+  }
+}
+/*mediano*/
+@media (min-width: 480px) and (max-width: 768px) {
   .cajapages {
     display: flex;
     width: 100%;
